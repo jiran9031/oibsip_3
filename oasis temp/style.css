@@ -1,0 +1,61 @@
+*{
+  overflow-x: hidden;
+  overflow-y: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+body {
+    background-image:linear-gradient(0deg, black,30%, pink );
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    line-height: 2rem;
+  }
+  
+  h1 {
+    text-align: center;
+    color: black;
+  }
+  
+  label {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  input {
+    width: 150px;
+    padding: 10px;
+    font-size: 20px;
+  }
+  
+  select {
+    width: 150px;
+    padding: 10px;
+    font-size: 20px;
+  }
+  
+  button {
+    font-size: 20px;
+    padding: 10px;
+  }
+  
+  #result {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
